@@ -1,6 +1,6 @@
 package assignments;
 
-public class Assignments1 {
+public class Assignments1_DataTypes {
 
 	public static void main(String[] args) {
 		

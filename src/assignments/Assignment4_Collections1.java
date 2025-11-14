@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class Assignment4 {
+public class Assignment4_Collections1 {
 
 	public static void main(String[] args) {
 		
