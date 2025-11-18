@@ -22,7 +22,7 @@ public class Assignment6_Operators {
 		System.out.println(studentName[1] +":" +  marks[1]);
 		System.out.println(studentName[2] + ":" +  marks[2]);
 		
-		 double averageMarks = (marks[0]+marks[1]+marks[2])/3.0;
+		 double averageMarks = (marks[0]+marks[1]+marks[2])/marks.length;
 		System.out.println("average marks of students :" + averageMarks);
 		
 		
@@ -42,6 +42,7 @@ public class Assignment6_Operators {
 		student1.put("Suresh",val1+10);
 		student1.put("Mahesh",val2+10);
 		student1.put("Naresh",val3+10);
+		
 		System.out.println("updatedMarks");
 		
 		System.out.println(student1);
