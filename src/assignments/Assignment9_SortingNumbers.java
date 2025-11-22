@@ -6,7 +6,7 @@ public class Assignment9_SortingNumbers {
 
 		int [] nums = {12 ,34,11,36,87,98,93};
 
-		int temp=0;
+		//int temp=0;
 
 		for(int i=0 ; i<nums.length ;i++) {
 
@@ -18,10 +18,9 @@ public class Assignment9_SortingNumbers {
 					nums[i]=nums[j];
 					nums[j]=temp;
 					 */
-
-					nums[i]=nums[i]+nums[j];  //a=5;b=10
-					nums[j]=nums[i]-nums[j];   //a=a+b;15
-					//b=a-b;5
+					                             //a=5;b=10
+					nums[i]=nums[i]+nums[j];    //a=a+b;15
+					nums[j]=nums[i]-nums[j];   //b=a-b;5
 					nums[i]=nums[i]-nums[j]; //a=a-b;10
 				}
 
