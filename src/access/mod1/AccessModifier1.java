@@ -39,8 +39,8 @@ public class AccessModifier1 {
 		
 		
 		//private access
-		String name3="karthik";
-		void printEmpId3() {
+		private String name3="karthik";
+		private void printEmpId3() {
 			System.out.println("employee ID:12348");
 		}
 		
